@@ -2,21 +2,38 @@ html {
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .firstpart {
+    background-color: #1F2937;
+    color: white;
+}
+.firstline {
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: space-around;
-    background-color: #1F2937;
-    color: white;
 }
 
+.secondline {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
 .links {
     display: flex;
     gap: 20px;
-    }
+    font-size: 12px;
+}
 
-a {
-    text-decoration: none;
-    color: white;
+.main {
+    flex-wrap: wrap;
+}
+
+#img1 {
+    height: 145px;
 }
